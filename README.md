@@ -1,16 +1,7 @@
 # stack_widget_with_flutter
 
-A new Flutter project.
+The Stack widget has two types of child widgets:
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Positioned widgets: These are wrapped in the Positioned widget and are positioned using the top, right, left, and bottom properties, allowing for precise control of their placement within the stack.
+Non-positioned widgets: These are simply placed in the Stack without being wrapped in a Positioned widget. By default, they are aligned to the top-left corner unless you specify a different alignment using the alignment property.
+![Screenshot 2025-02-25 090305](https://github.com/user-attachments/assets/2c474325-431c-41d1-b9dc-af165262ef2f)
